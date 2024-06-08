@@ -11,7 +11,7 @@ public class LaunchLakme_Test {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.lakmeindia.com/");
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		driver.quit();
 
 }
